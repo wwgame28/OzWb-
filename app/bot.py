@@ -9,7 +9,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from app.collectors import DemoCollector, OzonCollector, WildberriesCollector
 from app.config import get_settings
 from app.scanner import Scanner, notify_users
-from app.storage import JsonStorage
+from app.json_storage import JsonStorage
 
 router = Router()
 settings = get_settings()
