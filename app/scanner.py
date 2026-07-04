@@ -2,7 +2,7 @@ from aiogram import Bot
 
 from app.collectors import BaseCollector
 from app.discount import detect_rare_discount
-from app.storage import JsonStorage
+from app.json_storage import JsonStorage
 
 
 class Scanner:
